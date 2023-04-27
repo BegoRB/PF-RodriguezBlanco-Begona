@@ -57,6 +57,11 @@ body {
     border-radius: 10px;
 }
 
+.resaltado {
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
 .look-title {
     padding: 3rem;
     text-align: center;
