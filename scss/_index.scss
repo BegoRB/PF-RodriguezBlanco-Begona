@@ -1,0 +1,59 @@
+.section {
+    height: 600px;
+    background-image: url(../imagenes/foto-fodno.png);
+    background-position: center;
+    background-size: 130rem;
+    background-repeat: no-repeat;
+    background-color: #f6e6d4;
+}
+
+.display-2 {
+    height: 100%;
+    color: #4e4e50;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.display-2-intro {
+    font-weight: 700;
+    padding: 2rem;
+    background-color: rgba(248, 248, 248, 0.7);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.display-2-description {
+    font-size: 14px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 18px;
+    font-size: 1.4rem;
+    background-color: rgba(248, 248, 248, 0.7);
+    padding: 2rem;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.resaltado {
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.look-title {
+    padding: 3rem;
+    text-align: center;
+    background-color: #a6849c;
+    font-size: 1.4rem
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
+  .bi-chevron-down{
+    color: #a6849c;
+}

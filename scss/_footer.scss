@@ -1,0 +1,29 @@
+.list-unstyled {
+    list-style: none;
+    text-decoration: none;
+         li {
+              padding: 2px;
+              display: flex;
+              text-decoration: none;
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: #ffbdef;
+                }
+            }
+        }
+
+.row{
+    padding: 10px;
+    margin: 10px;
+}
+
+.list{
+    color: #a6849c;
+    text-decoration: none;
+}
+
+.dirección{
+    color: #a6849c;
+
+}       
