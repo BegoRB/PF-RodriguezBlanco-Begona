@@ -130,6 +130,17 @@
   color: #a6849c;
 }
 
+.custom-btn {
+  background-color: #ecafcd;
+  border-color: #d494b3;
+  color: rgb(108, 9, 57);
+}
+
+.custom-btn:hover {
+  background-color: #b7698f;
+  border-color: #b7698f;
+}
+
 .list-unstyled {
   list-style: none;
   text-decoration: none;
@@ -276,6 +287,16 @@ h1.animate__bounceInUp {
 .card.shadow-sm:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
